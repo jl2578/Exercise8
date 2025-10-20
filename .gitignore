@@ -1,0 +1,46 @@
+# Auto-downloaded data files (large)
+data/sub-*/func/*.nii
+data/sub-*/func/*.nii.gz
+data/sub-*/func/*.tsv
+data/*.nii.gz
+
+# Old subject folders in root (to be deleted)
+sub-s001/
+sub-s002/
+
+# Generated outputs
+figs/*.png
+figs/*.jpg
+!figs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# IDE
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+.tmp/
+
+# Data analysis temp files
+*.log
+*.tmp
