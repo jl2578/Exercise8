@@ -4,6 +4,13 @@
   
   "postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
   
+  // Add this for better disk space management
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb",
+    "storage": "32gb"
+  },
+  
   "customizations": {
     "vscode": {
       "extensions": [
